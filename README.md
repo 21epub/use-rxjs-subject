@@ -32,14 +32,14 @@ const TestFn2: React.FC = () => {
 const App: React.FC = () => {
   return (
     <>
-      <TestFn1/>
-      <TestFn2/>
+      <TestFn1 />
+      <TestFn2 />
     </>
   )
 }
 ```
 
-For Details: See Example 
+For Details: See Example
 
 ## Building and running on localhost
 
@@ -66,7 +66,6 @@ To create a bundle module build:
 ```sh
 npm run build
 ```
-
 
 ## Running
 
