@@ -20,7 +20,7 @@
     "clean": "rm dist/bundle.js",
     "start": "parcel example/index.html --out-dir ./build",
     "build-prod": "parcel build example/index.html --out-dir ./build",
-    "test": "jest",
+    "test": "jest --coverage",
     "lint-staged:js": "eslint --fix --cache --ext .ts,.tsx ./src",
     "start-w": "microbundle-crl watch --no-compress --format modern,cjs",
     "build": "microbundle-crl --no-compress --format modern,cjs",
