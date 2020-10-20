@@ -2,7 +2,7 @@
 
 > Rxjs Subject with React Hooks
 
-[![NPM](https://img.shields.io/npm/v/@21epub/matomo-echarts-components.svg)](https://www.npmjs.com/package/@21epub/matomo-echarts-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@21epub/matomo-echarts-components.svg)](https://www.npmjs.com/package/@21epub/use-rxjs-subject) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -40,12 +40,6 @@ const App: React.FC = () => {
 ```
 
 For Details: See Example 
-
-
-## License
-
-MIT © [garry](https://github.com/garry)
-
 
 ## Building and running on localhost
 
@@ -85,3 +79,7 @@ To run unit tests:
 ```sh
 npm test
 ```
+
+## License
+
+MIT © [garry](https://github.com/garry)

@@ -21,11 +21,13 @@
     "start": "parcel example/index.html --out-dir ./build",
     "build-prod": "parcel build example/index.html --out-dir ./build",
     "test": "jest --coverage",
+    "prepare": "run-s lint-staged:js test build",
     "lint-staged:js": "eslint --fix --cache --ext .ts,.tsx ./src",
     "start-w": "microbundle-crl watch --no-compress --format modern,cjs",
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "prettier": "prettier -c --write \"**/*\"",
     "release": "git fetch --tags && npx standard-version",
+    "release:alpha": "run-s release -- --prerelease alpha",
     "commit": "lint-staged && npx git-cz --no-verify"
   },
   "lint-staged": {
@@ -71,6 +73,7 @@
     "parcel-bundler": "1.12.4",
     "postcss-modules": "3.2.2",
     "prettier": "2.1.2",
+    "run-s": "0.0.0",
     "stylelint": "^13.0.0",
     "stylelint-config-css-modules": "2.2.0",
     "stylelint-config-prettier": "8.0.2",
