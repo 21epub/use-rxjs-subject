@@ -15,7 +15,7 @@
   },
   "keywords": [],
   "author": "garrygu",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "clean": "rm dist/bundle.js",
     "start": "parcel example/index.html --out-dir ./build",
@@ -39,6 +39,11 @@
     "**/*.{tsx,ts,less,md,json}": [
       "prettier --write"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
     "immer": "7.0.9",
@@ -72,6 +77,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
+    "husky": "4.3.0",
     "jest": "26.4.2",
     "less": "^3.12.2",
     "lint-staged": "^10.0.0",
