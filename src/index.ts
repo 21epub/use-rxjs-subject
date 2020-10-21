@@ -1,1 +1,2 @@
-export { default as useRxjsSubject } from './useRxjsSubject'
+import useRxjsSubject from './useRxjsSubject'
+export default useRxjsSubject

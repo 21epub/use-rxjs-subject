@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { state$ } from './rxjs-event'
-import useRxjsSubject from '../src/useRxjsSubject'
+import useRxjsSubject from '../src'
 import BrotherOne from './BrotherOne'
 import BrotherTwo from './BrotherTwo'
 
