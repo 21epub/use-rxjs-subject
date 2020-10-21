@@ -1,6 +1,6 @@
 import React from 'react'
 import { stateMutiply1000$ } from './rxjs-event'
-import useRxjsSubject from '../src/useRxjsSubject'
+import useRxjsSubject from '../src'
 
 const BrotherTwo = () => {
   const [state] = useRxjsSubject<number>(stateMutiply1000$)

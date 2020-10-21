@@ -2,7 +2,7 @@
 
 > Rxjs Subject with React Hooks
 
-[![NPM](https://img.shields.io/npm/v/@21epub/use-rxjs-subject.svg)](https://www.npmjs.com/package/@21epub/use-rxjs-subject) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.com/21epub/use-rxjs-subject.svg?branch=master)](https://travis-ci.com/21epub/use-rxjs-subject)
+[![NPM](https://img.shields.io/npm/v/@21epub/use-rxjs-subject.svg)](https://www.npmjs.com/package/@21epub/use-rxjs-subject) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.com/21epub/use-rxjs-subject.svg?branch=master)](https://travis-ci.com/21epub/use-rxjs-subject) ![Codecov](https://img.shields.io/codecov/c/github/21epub/use-rxjs-subject)
 
 ## Install
 
