@@ -29,9 +29,9 @@
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "prettier": "prettier -c --write \"**/*\"",
     "release": "git fetch --tags && npx standard-version",
-    "release:alpha": "run-s release -- --prerelease alpha",
+    "release:alpha": "run-s release --prerelease alpha",
     "commit": "lint-staged && npx git-cz --no-verify",
-    "postinstall": "install-peers"
+    "prepublish": "run-s lint:js lint:style lint:prettier test build"
   },
   "lint-staged": {
     "**/*.less": "stylelint --fix --syntax less",
@@ -42,8 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-publish": "run-s lint:js lint:style lint:prettier test build"
+      "pre-commit": "lint-staged"
     }
   },
   "peerDependencies": {
