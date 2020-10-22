@@ -43,10 +43,11 @@ For Details: See Example
 
 ## Building and running on localhost
 
-First install dependencies:
+First install dependencies and then install peerDeps for parcel dev:
 
 ```sh
 npm install
+npm run install-peers
 ```
 
 To run Example in hot module reloading mode:
