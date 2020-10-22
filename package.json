@@ -31,7 +31,8 @@
     "release": "git fetch --tags && npx standard-version",
     "release:alpha": "npm run release -- --prerelease alpha",
     "commit": "lint-staged && npx git-cz --no-verify",
-    "prepublish": "run-s lint:js lint:style lint:prettier test build"
+    "prepublish": "run-s lint:js lint:style lint:prettier test build",
+    "install-peers": "npm-install-peers"
   },
   "lint-staged": {
     "**/*.less": "stylelint --fix --syntax less",
@@ -80,11 +81,11 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "4.3.0",
-    "install-peers-cli": "2.2.0",
     "jest": "26.4.2",
     "less": "^3.12.2",
     "lint-staged": "^10.0.0",
     "microbundle-crl": "^0.13.11",
+    "npm-install-peers": "1.2.1",
     "npm-run-all": "4.1.5",
     "parcel-bundler": "1.12.4",
     "postcss-modules": "3.2.2",
