@@ -32,7 +32,7 @@
     "release": "git fetch --tags && npx standard-version",
     "release:alpha": "npm run release -- --prerelease alpha",
     "commit": "lint-staged && npx git-cz --no-verify",
-    "prepublish": "run-s lint test build",
+    "prepublishOnly": "run-s lint test build",
     "install-peers": "npm-install-peers"
   },
   "lint-staged": {
