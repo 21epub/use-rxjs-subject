@@ -82,4 +82,4 @@ npm test
 
 ## License
 
-MIT © [garry](https://github.com/garry)
+MIT © [garryguzy](https://github.com/garryguzy)
